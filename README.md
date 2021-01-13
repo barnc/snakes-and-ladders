@@ -2,7 +2,7 @@
 
 This is a the bare bones of a snakes and ladders game model written in Typescript.
 
-The game state is seeded via config in `index.ts`. Snakes and ladders are added according to the usual rules (snakes going down 1+ rows, ladders going up 1+ rows), and a game loop is entered prompting the user to role the dice and advancing the turn order.
+The game state is seeded via config in `index.ts`. Snakes and ladders are added according to the usual rules (snakes going down 1+ rows, ladders going up 1+ rows), and a game loop is entered prompting the user to roll the dice and advancing the turn order.
 
 The game ends when a player reaches the final square, and they are bounced back if they roll past the last square (these were my house rules anyway, so I modified this!).
 
